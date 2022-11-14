@@ -103,11 +103,24 @@ body {
 }
 
 /* Post */
-
+.posts {
+  position: relative;
+  //height: 720px;
+  //overflow: scroll;
+}
 .post {
-  display: none;
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  padding: 20px;
   &.active {
     display: block;
+    top: 0;
+    left: 0;
+    transition: all 1s;
+    opacity: 1;
+    visibility: visible;
   }
 }
 
