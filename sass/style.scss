@@ -105,9 +105,9 @@ body {
 /* Post */
 .posts {
   position: relative;
-  //height: 720px;
-  //overflow: scroll;
+  overflow: auto;
 }
+
 .post {
   position: absolute;
   left: 0;
