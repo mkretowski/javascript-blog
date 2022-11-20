@@ -128,6 +128,9 @@ body {
 
 .post-author {
   font-style: italic;
+  .active {
+    font-weight: bold;
+  }
 }
 
 .post-tags {
@@ -136,4 +139,48 @@ body {
   p {
     margin: 0 10px 0 0;
   }
+}
+
+.tags li {
+  display: inline-block;
+  font-size: 24px;
+  padding-left: 5px;
+}
+
+.tag-size-1 {
+  font-size: 50%;
+}
+.tag-size-2 {
+  font-size: 65%;
+}
+.tag-size-3 {
+  font-size: 75%;
+}
+.tag-size-4 {
+  font-size: 85%;
+}
+.tag-size-5 {
+  font-size: 100%;
+}
+
+.authors li {
+  display: inline-block;
+  font-size: 24px;
+  padding-left: 5px;
+}
+
+.author-size-1 {
+  font-size: 50%;
+}
+.author-size-2 {
+  font-size: 65%;
+}
+.author-size-3 {
+  font-size: 75%;
+}
+.author-size-4 {
+  font-size: 85%;
+}
+.author-size-5 {
+  font-size: 100%;
 }
